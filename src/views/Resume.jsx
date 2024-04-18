@@ -37,7 +37,7 @@ export const Resume = () => {
               useLinkComponent={true}
             />
             <div>
-              <span
+              {/* <span
                 className="mr-2 py-0.5 rounded-full text-dark-0 overflow-hidden
             transition duration-300  hover:bg-black hover:ring-2 hover:ring-light-1 cursor-pointer"
                 onClick={translation.toggle}>
@@ -55,9 +55,9 @@ export const Resume = () => {
                       ? "bg-light-1"
                       : "text-light-0 bg-dark-0"
                   }`}>
-                  DE
+                  FA
                 </span>
-              </span>
+              </span> */}
               {showDetails ? (
                 <span
                   className="px-3 py-0.5 bg-light-1 rounded-full text-dark-0 hover:text-light-0
@@ -97,7 +97,7 @@ export const Resume = () => {
           <div className="pb-4 flex flex-col justify-between md:flex-row print:flex-row">
             <div>
               <p className="print:text-4xl text-4xl font-bold">
-                Ross Amiri
+                Arsalan Hadidi
               </p>
               <p className="print:text-2xl text-2xl">{aboutMe.title}</p>
             </div>
@@ -117,10 +117,6 @@ export const Resume = () => {
                 {[
                   "GitHub",
                   "LinkedIn",
-                  "Instagram",
-                  "Twitter",
-                  "StackOverflow",
-                  "Telegram",
                 ].map((name) => (
                   <LinkButtonName
                     name={name}
@@ -196,9 +192,10 @@ export const Resume = () => {
                           </p>
                         </div>
                         <div className="print:text-xs text-sm">
-                          {exp.stack.map((stack) => (
+                          {exp.stack.map((stack, ind) => (
                             <span className="text-green-1 print:text-green-0 font-semibold">
-                              {stack},{" "}
+                              {stack}
+                              {exp.stack.length - 1 === ind ? " " : ", "}
                             </span>
                           ))}
                         </div>
@@ -225,7 +222,7 @@ export const Resume = () => {
                         {exp.links.map((link) => (
                           <LinkButton
                             className="px-3 py-0.5 mx-1 my-1 font-bold print:text-light-0 print:text-sm print:px-2 print:py-0"
-                            bgColor="bg-blue-0"
+                            bgColor="bg-red-0"
                             ringColor="ring-blue-0"
                             href={link.href}
                             text={link.title}

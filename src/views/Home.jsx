@@ -12,15 +12,13 @@ export const Home = () => {
         className="min-h-screen flex flex-col justify-center items-center">
         <div className="sm:w-[500px] w-screen p-5 py-20 text-lg select-none">
           <p className="mb-4">
-            Hi! I'm a Team Leader & Web Developer, currently working as
-            FullStack Developer at
+            Hi! I'm a .NET Developer, currently working at
             <LinkButtonName
               name="CurrentCompany"
               useIcon={false}
               className="mx-2 px-2"
             />
-            , the world's largest feedback platform that aims to optimize the
-            travel experience from the right hotel to the perfect stay.
+            (Hamkaran Systems Group) as Full-Stack developer maintaining ERP software infrastructure in Farayar team.
           </p>
           <p className="mb-4">
             Here is my
@@ -55,7 +53,7 @@ export const Home = () => {
             about anything related to tech. it's always a pleasure to meet new
             people ;]
           </p>
-          <p>
+          {/* <p>
             Join me to play
             <LinkButtonName
               name="Chess"
@@ -69,15 +67,11 @@ export const Home = () => {
               className="mx-2 px-2"
             />
             .
-          </p>
+          </p> */}
           <div className="mt-5 flex flex-wrap gap-2 leading-snug">
             {[
               "GitHub",
               "LinkedIn",
-              "Instagram",
-              "Twitter",
-              "StackOverflow",
-              "Telegram",
             ].map((name) => (
               <LinkButtonName name={name} useIcon={false} className="px-2" />
             ))}

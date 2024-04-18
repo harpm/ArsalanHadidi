@@ -1,3 +1,3 @@
-# amiri.cc
+# ArsalanHadidi.info
 
 my personal site/resume :]

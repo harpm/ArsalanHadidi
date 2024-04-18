@@ -1,13 +1,12 @@
 export const aboutMeEN = {
-  title: "Python & Web Developer",
+  title: ".NET Developer",
   cover: [
-    "Hi! I'm a Team Leader & Web Developer, currently working as FullStack Developer at TrustYou, the world's largest feedback platform.",
-    "I have more than 6 years of experience in software development mainly in Web Development, and around 3 years of leading the tech teams. My aim is to enhance user experience and create new values in addition to delivering a clean scalable code, by being closely in touch with the end-users. I can easily make strong sincere relations with my team and help them to develop themselves. I'm a self-learner, without prejudice on tools and tech stacks, and ready for new challenges.",
+    "I am a back-end engineer with +3 years of experience and am familiar with back-end technologies. What truly satisfies my passion in the programming field is the act of solving problems and delving into new technologies. Learning and teaching web-based technologies is incredibly exciting, and as a developer, there's still a vast amount for me to explore and learn."
   ],
   info: [
-    "Education: Computer Engineering (Associate)",
-    "Location: Munich, Germany",
+    "Education: Petroleum Engineering (Petroleum University of technology)",
+    "Location: Isfahan, Iran",
     "Marriage: Single",
-    "Birth Date: 22 Feb 1996",
+    "Birth Date: 11 Mar 2001",
   ],
 };
