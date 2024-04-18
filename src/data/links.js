@@ -26,7 +26,7 @@ export const links = {
   Webpage: {
     title: "Webpage",
     text: "ArsalanHadidi.info",
-    href: "https://arsalanhadidi.info",
+    href: "https://harpm.github.io/ArsalanHadidi/",
     icon: "fas fa-globe-americas",
     bgColor: "bg-dark-0",
     ringColor: "ring-dark-0",
